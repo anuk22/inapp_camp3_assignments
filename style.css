@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(153, 125, 201);
+    height: 100%;
+}
+#color{
+        border: 3px solid black;
+        padding: 25px 25px;
+        width:150px;
+        box-sizing:border-box;
+        background-color: rgb(157, 78, 190);
+}
+#navigation {
+  position: absolute;
+  top: 50;
+  left: 5%;
+  width: 100px;
+  background-color: rgb(30, 3, 43);
+}
+#content {
+  position: fixed;  
+  margin-left: 650px;
+}
+#img{
+    position:absolute;
+    margin-left:0px;
+}
+#hmm{
+    position:absolute;
+    margin-left:250px;
+}
+h1,h2,p{
+    color: antiquewhite;
+}
+.center{
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+    border:6px solid #300334f8;
+    padding: 10px;
+}
